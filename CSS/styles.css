@@ -1,0 +1,197 @@
+
+
+:root {
+    --box-shadow: 0px 15px 25px rgba(196, 38, 38, 0.9);
+    --transition: all 0.5s ease;
+    
+}
+
+
+#nav {
+    box-shadow: var(--box-shadow);
+}
+
+#brand{
+    font-family:var(--font-base);
+}
+
+.rowdies-light {
+    font-family: "Rowdies", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .rowdies-regular {
+    font-family: "Rowdies", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rowdies-bold {
+    font-family: "Rowdies", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .titan-one-regular {
+    font-family: "Titan One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  #barNav{
+    font-family: 'Rowdies',bold;
+  }
+
+  .c-img{
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    height: 500px;
+    
+
+  }
+
+
+  
+
+ .btn:hover{
+    font-weight: 1000;
+    font-size: larger;
+ }
+
+ 
+
+ .carousel-caption h4 {
+  font-family: 'Titan One',normal;
+  font-size: 4rem; 
+  font-weight: bold;
+  text-shadow: 2px 2px 10px rgba(196, 38, 38, 0.9);
+ }
+  
+
+.carousel-caption h5 {
+  font-family: 'Titan One',normal;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
+  font-size: 2rem; 
+}
+
+.carousel-caption p {
+  font-family: 'Titan One',normal;  
+  font-size: 1.3rem; 
+  max-width: 600px;
+  margin: 0 auto;
+  color: rgba(248,48,48, 1);
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
+  font-weight:lighter;
+}
+
+.carousel-caption button {
+  font-family: 'Titan One',normal;
+  font-size: 1.5rem; 
+  padding: 12px 24px; 
+}
+
+.col-lg-5 img{
+  width: 600px;
+  height: 700px;
+}
+
+.about-title{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-family: 'Rowdies',bold;
+  text-shadow: 2px 2px 10px rgba(196, 38, 38, 0.9); 
+  
+  
+  
+  
+}
+
+.about-title .line{
+  width: 60px;
+  height: 4px;
+  background-color: rgba(248,48,48, 1);
+  margin: 16px auto 24px auto;
+
+
+}
+
+.about-title .about-para{
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#iconbox{
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(248,48,48, 1);
+  flex: none;
+  font-size: 34px;
+}
+
+.aboutP{
+  font-size: 20px;
+  
+}
+
+.about-para{
+  font-size: 20px;
+}
+
+#aboutSubPara{
+  font-size: 20px;
+}
+
+.aboutSubTitle{
+  font-family: 'Titan One',normal;
+
+}
+
+.service{
+  box-shadow: var(--box-shadow);
+  
+
+}
+
+.service{
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}  
+
+.service::after{
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: rgba(248,48,48, 1);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: var(--transition);
+}
+
+.service:hover::after{
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+}
+
+.service:hover h5
+{
+  color: azure;
+  font-weight: 1000;
+  font-size: 40px;
+  align-items: center;
+  
+}
+
+.service:hover p
+{
+  color: rgba(248,48,48, 1);
+}
