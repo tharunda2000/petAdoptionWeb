@@ -9,6 +9,9 @@
 
 #nav {
     box-shadow: var(--box-shadow);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 
 #brand{
@@ -57,15 +60,15 @@
   
 
  .btn:hover{
-    font-weight: 1000;
-    font-size: larger;
+   
+    
  }
 
  
 
  .carousel-caption h4 {
   font-family: 'Titan One',normal;
-  font-size: 4rem; 
+  font-size: 3rem; 
   font-weight: bold;
   text-shadow: 2px 2px 10px rgba(196, 38, 38, 0.9);
  }
@@ -73,16 +76,18 @@
 
 .carousel-caption h5 {
   font-family: 'Titan One',normal;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.9);
+  color: rgb(245, 68, 68);
+
   font-size: 2rem; 
 }
 
 .carousel-caption p {
   font-family: 'Titan One',normal;  
-  font-size: 1.3rem; 
+  font-size: 1.1rem; 
   max-width: 600px;
   margin: 0 auto;
-  color: rgba(248,48,48, 1);
+  color: rgb(255, 255, 255);
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
   font-weight:lighter;
 }
@@ -99,10 +104,10 @@
 }
 
 .about-title{
-  margin-bottom: 40px;
-  margin-top: 40px;
+  margin-bottom: 120px;
+  margin-top: 120px;
   font-family: 'Rowdies',bold;
-  text-shadow: 2px 2px 10px rgba(196, 38, 38, 0.9); 
+  
   
   
   
@@ -154,6 +159,9 @@
 
 .service{
   box-shadow: var(--box-shadow);
+  position: absolute;
+  width: 75px;
+  height: 75px;
   
 
 }
@@ -173,25 +181,39 @@
   bottom: 0;
   right: 0;
   transition: var(--transition);
+  
 }
 
 .service:hover::after{
   width: 100%;
   height: 100%;
   z-index: -1;
+  
 
+}
+
+.service:hover{
+
+  width: 75px;
+  height: 75px;
+  
 }
 
 .service:hover h5
 {
   color: azure;
   font-weight: 1000;
-  font-size: 40px;
+  font-size: 35px;
   align-items: center;
+  
+  text-align: center;
+  
+ 
   
 }
 
 .service:hover p
 {
   color: rgba(248,48,48, 1);
+  font-size: 0px;
 }
