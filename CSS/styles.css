@@ -57,12 +57,7 @@
   }
 
 
-  
 
- .btn:hover{
-   
-    
- }
 
  
 
@@ -216,4 +211,21 @@
 {
   color: rgba(248,48,48, 1);
   font-size: 0px;
+}
+
+#tw-img{
+  width: 30px;
+  margin-left: 10px;
+  
+}
+
+#signup{
+  
+
+}
+
+#signupText{
+  font-family: 'Titan One',normal;
+   
+  
 }
