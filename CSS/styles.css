@@ -257,6 +257,37 @@
   transition: var(--transition);
 }
 
+#paw-icon{
+  
+  width: 500px;
+  height: 500px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(248,48,48, 1);
+  flex: none;
+  font-size: 100px;
+}
+
 .image-zoom:hover .image-zoom-wrapper img{
   transform: scale(1.1);
+  opacity: 0.5;
+}
+
+.image-zoom .paw-icon{
+  
+
+  
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+}
+
+.image-zoom:hover .paw-icon{
+  
+  top: 50%;
+  opacity: 1;
+  
 }

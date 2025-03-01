@@ -10,10 +10,11 @@ fetch("https://api.thecatapi.com/v1/images/search?limit=10&breed_ids=beng&api_ke
         body+=`<div class="col-lg-3 col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
             <div class="card" style="width: 383px;">
 
-            <div class="image-zoom">
+            <div class="image-zoom" id="pet-img">
             <div class="image-zoom-wrapper">
               <img src="${element.url}" class="card-img-top" id="pet-img" alt="...">
             </div>
+            <a href="#" class="paw-icon"><i class="ph ph-paw-print" id="paw-icon"></i></a>
             </div>
 
 
