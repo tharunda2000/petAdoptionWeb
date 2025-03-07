@@ -18,12 +18,45 @@
   </head>
 
 
-  <body>
+  <body >
+    
+   <div class="background-img"></div>
+
+   <style>
+    .background-img{
+      background-image: url(./Assets/images/bg2.jpg);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; 
+  z-index: -2; 
+    }
+
+    #nav{
+
+      background-image: url(./Assets/images/bg1.jpg);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+   
+  
+
+    }
+   </style>
+  
 
     
 
     <!--Nav Bar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary  navbar-expand-lg" id="nav">
         <div class="container-fluid">
           <a class="navbar-brand ms-md-10" href="#"><img src="./Assets/images/logo.png" alt="" class="w-25">
                 
@@ -160,7 +193,7 @@
 
       <!--Achievements-->
 
-      <section id="achievements" class="section-padding border-top">
+      <section id="achievements" class="section-padding ">
 
         <div class="row justify-content-center">
           <div class="col-6 text-center">
@@ -269,8 +302,9 @@
       </div>
 
       <!--pets-->
-
-      <div id="pets" class="section-padding border-top">
+      <section>
+      
+      <div id="pets" class="section-padding ">
 
         <div class="row justify-content-center">
           <div class="col-6 text-center">
@@ -281,14 +315,167 @@
             </div>
           </div>
         </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3" id="pet">
+
+        </div>
+      </div>
       </section>
 
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3" id="pet">
-        
-          
-       
+      <!--Testimonials-->
+
+      <div class="row justify-content-center">
+        <div class="col-6 text-center">
+          <div class="about-title">
+            <h1 class="display-4 fw-semibold mt-lg-5">What Our Adopters Say</h1>
+            <div class="line"></div>
+            <p class="about-para">Hear from the families who found their furry companions through Hearts & Paws.</p>
+          </div>
+        </div>
       </div>
 
+
+      <div class="row gy-5 gx-4 ms-3 ">
+        <div class="d-flex justify-content-evenly">
+          <div class="review">
+            <div class="review-head p-4 bg-white">
+              <div class="text-warning">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+            </div>
+            <p>"Adopting Max from Hearts & Paws was the best decision we ever made. The team was so supportive, and Max has brought so much joy into our lives. Thank you for helping us find our perfect match!"</p>
+            </div>
+
+            
+
+            <div class="review-person d-flex align-items-center">
+              <img src="./Assets/images/avatar1.jpg" alt="" class="avatar-img mt-4 rounded-circle">
+              <div class="h5 ms-3" id="review-person">Sarah & Max</div>
+            </div>
+          </div>
+
+          <div class="review">
+            <div class="review-head p-4 bg-white">
+              <div class="text-warning">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+            </div>
+            <p>"We adopted Luna, a shy little kitten, and she’s now the queen of our home. The adoption process was smooth, and the Hearts & Paws team made sure we had all the resources we needed. Highly recommend!"</p>
+            </div>
+
+            <div class="review-person d-flex align-items-center">
+              <img src="./Assets/images/avatar2.jpg" alt="" class="avatar-img mt-4 rounded-circle">
+              <div class="h5 ms-3" id="review-person">The Martinez Family</div>
+            </div>
+          </div> 
+
+
+          
+
+        <div class="review">
+          <div class="review-head p-4 bg-white">
+            <div class="text-warning">
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+          </div>
+          <p>"I wasn’t sure about adopting at first, but Hearts & Paws guided me every step of the way. My dog, Buddy, is my best friend now. I can’t imagine life without him!"</p>
+          </div>
+
+          <div class="review-person d-flex align-items-center">
+            <img src="./Assets/images/avatar3.jpg" alt="" class="avatar-img mt-4 rounded-circle">
+            <div class="h5 ms-3" id="review-person">James</div>
+          </div>
+        </div> 
+        </div>
+
+        
+        
+      </div>
+
+
+      <!--Our Team-->
+
+      
+        
+      <div class="row justify-content-center">
+        <div class="col-6 text-center">
+          <div class="about-title">
+            <h1 class="display-4 fw-semibold mt-lg-5">Meet the Hearts & Paws Family</h1>
+            <div class="line"></div>
+            <p class="about-para">We’re a group of passionate animal lovers dedicated to rescuing, rehabilitating, and rehoming pets. Get to know the faces behind the mission!</p>
+          </div>
+        </div>
+      </div>  
+
+      <div class="row text-center m-4">
+        <div class="col-md-3">
+          <div class="team-member image-zoom" id="team-member">
+            <div class="image-zoom-wrapper">
+              
+          <img src="./Assets/images/team1.jpg" class="team-member-image" alt="">
+        </div>
+        <div class="team-member-title">
+          <h3 class="text-white">Jane Foster</h3>
+          <p>Founder & CEO</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-3">
+      <div class="team-member image-zoom" id="team-member">
+        <div class="image-zoom-wrapper">
+          
+      <img src="./Assets/images/team2.jpg" class="team-member-image" alt="">
+    </div>
+    <div class="team-member-title">
+      <h3 class="text-white">John Smith</h3>
+      <p>Head Veterinarian</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3">
+  <div class="team-member image-zoom" id="team-member">
+    <div class="image-zoom-wrapper">
+      
+  <img src="./Assets/images/team3.jpg" class="team-member-image" alt="">
+</div>
+<div class="team-member-title">
+  <h3 class="text-white">Ann Mary</h3>
+  <p>Coordinator</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+  <div class="team-member image-zoom" id="team-member">
+    <div class="image-zoom-wrapper">
+      
+  <img src="./Assets/images/team4.jpg" class="team-member-image" alt="">
+</div>
+<div class="team-member-title">
+  <h3 class="text-white">Mike Johns</h3>
+  <p>Volunteer Manager</p>
+</div>
+</div>
+</div>
+  
+      </div>
+       
+      
+    
+        
+      
 
       
 

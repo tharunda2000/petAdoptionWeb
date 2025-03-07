@@ -4,14 +4,19 @@
     --box-shadow: 0px 15px 25px rgba(196, 38, 38, 0.9);
     --transition: all 0.5s ease;
     
+    
 }
 
+.body{
+
+}
 
 #nav {
     box-shadow: var(--box-shadow);
     position: fixed;
     z-index: 2;
     width: 100%;
+    
 }
 
 #brand{
@@ -100,7 +105,7 @@
 
 .about-title{
   margin-bottom: 120px;
-  margin-top: 120px;
+  margin-top: 220px;
   font-family: 'Rowdies',bold;
   
   
@@ -271,7 +276,7 @@
 
 .image-zoom:hover .image-zoom-wrapper img{
   transform: scale(1.1);
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .image-zoom .paw-icon{
@@ -291,3 +296,68 @@
   opacity: 1;
   
 }
+
+
+.review-head{
+  box-shadow: var(--box-shadow);
+  position: relative;
+  width: 450px;
+  height: 180px;
+}
+.review-head::after{
+  content: "";
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  bottom: -14px;
+  background-color: rgb(255, 255, 255);
+  transform: rotate(45deg);
+  
+}
+
+.avatar-img{
+  width: 80px;
+  height: 80px;
+}
+
+#review-person{
+  font-family: 'Titan One',normal;
+  color: rgb(180, 36, 36);
+  
+}
+
+
+
+.team-member-image{
+  
+    position:sticky;
+    width: 350px;
+    height: 500px;
+    padding: 0px;
+    margin-bottom: 50px;
+
+}
+
+.team-member-title{
+  background-color: rgba(248,48,48, 1);
+  position: absolute;
+  bottom: -34px;
+  left: 50%;
+  width: calc(100%-50px);
+  transform: translate(-50%);
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: var(--transition);
+  opacity: 0;
+  font-family: 'Rowdies',bold;
+  
+}
+
+.team-member:hover .team-member-title{
+  
+  bottom: 34px;
+ 
+  opacity: 1;
+}
+
