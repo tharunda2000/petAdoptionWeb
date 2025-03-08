@@ -65,6 +65,11 @@ p{
     font-family: 'Rowdies',bold;
   }
 
+  #barNav .nav-link.active{
+    color: var(--c-brand);
+    text-shadow: 2px 2px 10px rgba(196, 38, 38, 0.9);
+  }
+
   .c-img{
     margin-left: 0%;
     margin-right: 0%;
@@ -401,3 +406,13 @@ ul{
   padding: 0;
   margin-left:0;
 }
+
+.footer-icon:hover{
+  color: rgba(248,48,48, 1);
+}
+
+.footer-icons a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
