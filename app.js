@@ -7,8 +7,8 @@ fetch("https://api.thecatapi.com/v1/images/search?limit=10&breed_ids=beng&api_ke
 
     data.forEach(element => {
 
-        body+=`<div class="col-lg-3 col-md-4 col-sm-6 mb-4 d-flex justify-content-center" data-aos="fade-down" data-aos-delay="500">
-            <div class="card" style="width: 383px;">
+        body+=`<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" data-aos="fade-down" data-aos-delay="500">
+            <div class="card" style="width: 300px;">
 
             <div class="image-zoom" id="pet-img">
             <div class="image-zoom-wrapper">

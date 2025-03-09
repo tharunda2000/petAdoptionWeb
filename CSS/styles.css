@@ -7,6 +7,8 @@
     
 }
 
+
+
 .theme-shadow{
   box-shadow: var(--box-shadow);  
 
@@ -20,9 +22,7 @@ p{
   font-family: "Cabin", sans-serif;
 }
 
-.body{
 
-}
 
 
 #button{
@@ -253,13 +253,13 @@ p{
 }
 
 #pet-img{
-  width: 380px;
-  height: 380px;
+  width: 300px;
+  height: 300px;
 
 }
 
 .card-body{
-  width: 380px;
+  width: 300px;
 }
 
 /* Image Zoom */
@@ -317,7 +317,7 @@ p{
 .review-head{
   box-shadow: var(--box-shadow);
   position: relative;
-  width: 450px;
+  width: 400px;
   height: 180px;
 }
 .review-head::after{
@@ -385,8 +385,8 @@ p{
 
 #blog-img{
 
-  width: 380px;
-  height: 380px;
+  width: 310px;
+  height: 300px;
 
   
   
