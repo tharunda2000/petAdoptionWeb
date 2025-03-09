@@ -41,6 +41,12 @@
       z-index: -2; 
     }
 
+    #signupbg{
+      background-image: url(./Assets/images/bg1.jpg);
+      
+
+    }
+
     
 
     #nav{
@@ -331,7 +337,7 @@
 
       <div class="modal fade" tabindex="-1" role="dialog" id="signup">
         <div class="modal-dialog" role="document">
-          <div class="modal-content rounded-4 shadow">
+          <div class="modal-content rounded-4 shadow" id="signupbg">
             <div class="modal-header p-5 pb-4 border-bottom-0">
               <h1 id="signupText" class="fw-bold mb-0 fs-2">Sign up Today</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -351,15 +357,15 @@
                 
                 <hr class="my-4">
                 <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
-                <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3 text-dark" type="submit">
                   <i class="ri-twitter-x-line w-100" id="tw-img"></i>
                   Sign up with Twitter
                 </button>
-                <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+                <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3 text-dark" type="submit">
                   <i class="ri-facebook-circle-fill w-100" id="tw-img"></i>       
                   Sign up with Facebook
                 </button>
-                <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3 text-dark" type="submit">
                   <i class="ri-google-fill" id="tw-img"></i>
                   Sign up with Google
                 </button>
