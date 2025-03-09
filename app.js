@@ -52,7 +52,7 @@ const loader = document.getElementById("preloader");
 
 setTimeout(() => {
 
-  loader.style.opacity=0;
+  loader.style.display = 'none';;
  
   
 }, 4000);
