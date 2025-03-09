@@ -45,4 +45,17 @@ AOS.init({
 
 });
 
+
+const loader = document.getElementById("preloader");
+
+
+
+setTimeout(() => {
+
+  loader.style.opacity=0;
+ 
   
+}, 4000);
+
+
+
